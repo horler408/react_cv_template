@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/react_cv_template/static/css/main.f606e967.chunk.css",
-    "main.js": "/react_cv_template/static/js/main.451542c2.chunk.js",
-    "main.js.map": "/react_cv_template/static/js/main.451542c2.chunk.js.map",
+    "main.css": "/react_cv_template/static/css/main.406a10f9.chunk.css",
+    "main.js": "/react_cv_template/static/js/main.9edcffb4.chunk.js",
+    "main.js.map": "/react_cv_template/static/js/main.9edcffb4.chunk.js.map",
     "runtime-main.js": "/react_cv_template/static/js/runtime-main.e725125a.js",
     "runtime-main.js.map": "/react_cv_template/static/js/runtime-main.e725125a.js.map",
     "static/css/2.af3c1da9.chunk.css": "/react_cv_template/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ef520ae2.chunk.js": "/react_cv_template/static/js/2.ef520ae2.chunk.js",
-    "static/js/2.ef520ae2.chunk.js.map": "/react_cv_template/static/js/2.ef520ae2.chunk.js.map",
+    "static/js/2.73ff5532.chunk.js": "/react_cv_template/static/js/2.73ff5532.chunk.js",
+    "static/js/2.73ff5532.chunk.js.map": "/react_cv_template/static/js/2.73ff5532.chunk.js.map",
     "index.html": "/react_cv_template/index.html",
-    "precache-manifest.a5f9010c2c0648d7716b6b08aae52b1e.js": "/react_cv_template/precache-manifest.a5f9010c2c0648d7716b6b08aae52b1e.js",
+    "precache-manifest.4813873bedf83140d98faf0fa748c43a.js": "/react_cv_template/precache-manifest.4813873bedf83140d98faf0fa748c43a.js",
     "service-worker.js": "/react_cv_template/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/react_cv_template/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.f606e967.chunk.css.map": "/react_cv_template/static/css/main.f606e967.chunk.css.map",
-    "static/js/2.ef520ae2.chunk.js.LICENSE.txt": "/react_cv_template/static/js/2.ef520ae2.chunk.js.LICENSE.txt",
-    "static/media/recentPic.jpg": "/react_cv_template/static/media/recentPic.cfaa98ae.jpg"
+    "static/css/main.406a10f9.chunk.css.map": "/react_cv_template/static/css/main.406a10f9.chunk.css.map",
+    "static/js/2.73ff5532.chunk.js.LICENSE.txt": "/react_cv_template/static/js/2.73ff5532.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e725125a.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ef520ae2.chunk.js",
-    "static/css/main.f606e967.chunk.css",
-    "static/js/main.451542c2.chunk.js"
+    "static/js/2.73ff5532.chunk.js",
+    "static/css/main.406a10f9.chunk.css",
+    "static/js/main.9edcffb4.chunk.js"
   ]
 }
