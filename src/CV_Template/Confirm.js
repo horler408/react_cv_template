@@ -14,22 +14,6 @@ class Confirm extends Component {
 		this.props.prevStep();
 	}
 
-	/*handleSkills = () => {
-		let values = this.props.values;
-		let skills = values.skills
-		//let otherSkills = values.otherSkills
-		skills.forEach(skill => {
-			return skill + ','
-		})
-		//let skills = values.otherSkills !== "" ? `${values.skills} and ${values.otherSkills}` : values.skills
-	}*/
-
-	handleCertification = () => {
-		let values = this.props.values;
-		let cert = values.otherCert !== "" ? `${values.cert} and ${values.otherCertrt}` : values.cert
-		return cert;
-	}
-
 	handleMultiples = () => {
 
 	}

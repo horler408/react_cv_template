@@ -3,7 +3,7 @@ import FormUserDetails from './CV_Template/FormUserDetails.js';
 import FormPersonalDetails from './CV_Template/FormPersonalDetails.js';
 import Education from './CV_Template/Education.js';
 import Employment from './CV_Template/Employment.js';
-import LanguageHobbiesSkillsCertificateCheck from './CV_Template/LanguageHobbiesSkillsCertificateCheck.js';
+import LanguageHobbiesSkillsCertification from './CV_Template/LanguageHobbiesSkillsCertification.js';
 import Referees from './CV_Template/Referees.js'
 import Confirm from './CV_Template/Confirm.js';
 import SuccessPage from './CV_Template/SuccessPage.js';
@@ -113,7 +113,7 @@ class UserForm extends React.Component {
 
 			case 5:
 				return (
-					<LanguageHobbiesSkillsCertificateCheck
+					<LanguageHobbiesSkillsCertification
 						nextStep={this.nextStep}
 						prevStep={this.prevStep}
 						handleChange={this.handleChange}

@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
-
+	
 
 class Language extends Component {
+	state = {
+		langError: '',
+		hobbyError: '',
+		skillsError: '',
+		certError: ''
+		}
+
 	continue = e => {
 		e.preventDefault();
 		this.props.nextStep();
@@ -16,23 +23,38 @@ class Language extends Component {
 	validate = () => {
 		let fields = this.props.values
 		let isValid = true;
+		const errors = {
+			langError: '',
+			hobbyError: '',
+			skillsError: '',
+			certError: ''
+		}
 
 
 		if (!fields.lang) {
 			isValid = false
+			errors.langError = "*Please select an item here"
 		}
 
 		if (!fields.hobby) {
 			isValid = false
+			errors.hobbyError = "*Please select an item here"
 		}
 
 		if (!fields.skills) {
 			isValid = false
+			errors.skillsError = "*Please select an item here"
 		}
 
 		if (!fields.cert) {
 			isValid = false
-		}
+			errors.certError = "*Please select an item here"
+		} 
+
+		this.setState({
+			...this.state,
+			...errors
+		})
 
 
 		return isValid
@@ -44,7 +66,7 @@ class Language extends Component {
 			this.props.nextStep();
 		}
 		else {
-			alert("Fill all the neccessary fields");
+			alert("Select at least one item from the neccessary fields");
 		}
 	}
 
@@ -70,8 +92,9 @@ class Language extends Component {
 							<option value="Africans">Africans</option>
 							<option value="German">German</option>
 							<option	value="Spanish">Spanish</option>
-							<option value="Portugese">Portugese</option>
+							<option value="Portuguese">Portuguese</option>
 						</select>
+						<div className="errorMsg">{this.state.langError}</div>
 					</div>
 					<div className="form-group col-12 col-lg-6">
 						<label>Hobbies<span className="errorMsg"> *</span></label>
@@ -89,6 +112,7 @@ class Language extends Component {
 							<option value="Sleeping">Sleeping</option>
 							<option value="Cooking">Cooking</option>
 						</select>
+						<div className="errorMsg">{this.state.hobbyError}</div>
 					</div>
 				</div>
 
@@ -98,7 +122,7 @@ class Language extends Component {
 						<select 
 							className="form-control" onChange={handleChange('skills')} multiple required>
 							<option value="">--None--</option>
-							<option value="Java">Java Technology</option>
+							<option value="Java Technology">Java Technology</option>
 							<option value="Windows Appreciation">Window Appreciation</option>
 							<option value="Desktop Publishing">Desktop Publishing</option>
 							<option value="Ms Offices">Ms Offices</option>
@@ -110,6 +134,7 @@ class Language extends Component {
 							<option value="Database Management">Database Management</option>
 							<option value="Mobile Devop">Mobile Devop</option>
 						</select>
+						<div className="errorMsg">{this.state.skillsError}</div>
 					</div>
 					<div className="form-group col-12 col-lg-6">
 						<label>Other Skills</label>
@@ -138,6 +163,7 @@ class Language extends Component {
 							<option name="Linus" value="Linus">Linus Plus</option>
 							<option name="CCIE" value="CCIE">CCIE</option>
 						</select>
+						<div className="errorMsg">{this.state.certError}</div>
 					</div>
 					<div className="form-group col-12 col-lg-6">
 						<label>Other Certification</label>
@@ -157,7 +183,7 @@ class Language extends Component {
 						<button 
 							className="btn btn-primary w-100 font-weight-bolder"
 							type="submit"
-							onClick={this.continue}>
+							onClick={this.handleSubmit}>
 							Continue
 						</button>
 					</div>

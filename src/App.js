@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './CV_Template/style.css';
 import UserForm from './UserForm.js';
 
 

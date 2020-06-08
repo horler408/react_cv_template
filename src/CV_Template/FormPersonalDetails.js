@@ -189,7 +189,7 @@ export class FormPersonalDetails extends Component {
 						<button 
 							className="btn btn-primary w-100 font-weight-bolder"
 							type="submit"
-							onClick={this.continue}>
+							onClick={this.handleSubmit}>
 							Continue
 						</button>
 					</div> 
