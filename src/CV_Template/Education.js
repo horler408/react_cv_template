@@ -153,6 +153,7 @@ export class Education extends Component {
 							className="form-control"
 							type="text"
 							name="priSch"
+							placeholder="e.g Commands Primary School Eleyele Ibadan, Oyo state."
 							onChange={handleChange('priSch')}
 							value={values.priSch}
 						/>
@@ -203,6 +204,7 @@ export class Education extends Component {
 							className="form-control"
 							type="text"
 							name="secSch"
+							placeholder="e.g Commands College Eleyele Ibadan, Oyo state."
 							onChange={handleChange('secSch')}
 							value={values.secSch}
 						/>
@@ -257,6 +259,7 @@ export class Education extends Component {
 							className="form-control"
 							type="text"
 							name="tertSch"
+							placeholder="e.g Obafemi Awolowo University Ile-Ife, Osun state."
 							onChange={handleChange('tertSch')}
 							value={values.tertSch}
 						/>
@@ -268,6 +271,7 @@ export class Education extends Component {
 							className="form-control"
 							type="text"
 							name="course"
+							placeholder="e.g Mechatronics Engineering"
 							onChange={handleChange('course')}
 							value={values.course}
 						/>

@@ -158,7 +158,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="refAdd1"
-							placeholder="Enter Your Referee Name"
+							placeholder="Enter the referee's full official address"
 							onChange={handleChange('refAdd1')}
 							value={values.refAdd1}
 						/>
@@ -173,7 +173,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="ref1"
-							placeholder="Phone Number"
+							placeholder="Referees' Phone Number"
 							onChange={handleChange('refPhone1')}
 							value={values.refPhone1}
 						/>
@@ -185,7 +185,7 @@ class Referees extends Component {
 							className="form-control"
 							type="email"
 							name="refEmail1"
-							placeholder="Enter Your Referee Name"
+							placeholder="Referee's Official Email"
 							onChange={handleChange('refEmail1')}
 							value={values.refEmail1}
 						/>
@@ -200,7 +200,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="ref2"
-							placeholder="Enter Your Referee Name"
+							placeholder="Enter Your Referee's Name"
 							onChange={handleChange('ref2')}
 							value={values.ref2}
 						/>
@@ -212,7 +212,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="refAdd2"
-							placeholder="Enter Your Referee Name"
+							placeholder="Enter the referee's full official address"
 							onChange={handleChange('refAdd2')}
 							value={values.refAdd2}
 						/>
@@ -227,7 +227,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="ref2"
-							placeholder="Phone Number"
+							placeholder="Referee's Phone Number"
 							onChange={handleChange('refPhone2')}
 							value={values.refPhone2}
 						/>
@@ -239,7 +239,7 @@ class Referees extends Component {
 							className="form-control"
 							type="email"
 							name="refEmail2"
-							placeholder="Email  Address"
+							placeholder="Referee's Official Email"
 							onChange={handleChange('refEmail2')}
 							value={values.refEmail2}
 						/>
@@ -254,7 +254,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="ref3"
-							placeholder="Enter Your Referee Name"
+							placeholder="Enter Your Referee's Name"
 							onChange={handleChange('ref3')}
 							value={values.ref3}
 						/>
@@ -266,7 +266,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="refAdd3"
-							placeholder="Enter Your Referee Name"
+							placeholder="Enter the referee's full official address"
 							onChange={handleChange('refAdd3')}
 							value={values.refAdd3}
 						/>
@@ -281,7 +281,7 @@ class Referees extends Component {
 							className="form-control"
 							type="text"
 							name="ref3"
-							placeholder="Phone Number"
+							placeholder="Referee's Phone Number"
 							onChange={handleChange('refPhone3')}
 							value={values.refPhone3}
 						/>
@@ -293,7 +293,7 @@ class Referees extends Component {
 							className="form-control"
 							type="email"
 							name="refEmail3"
-							placeholder="Email  Address"
+							placeholder="Referee's Official Email"
 							onChange={handleChange('refEmail3')}
 							value={values.refEmail3}
 						/>

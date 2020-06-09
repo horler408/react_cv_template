@@ -93,9 +93,9 @@ class FormUserDetails extends Component {
 		if (this.validate()) {
 			this.props.nextStep();
 		}
-		/*else {
+		 {
 			alert("Fill all the neccessary fields");
-		}*/
+		}
 	}
 
 
@@ -107,7 +107,7 @@ class FormUserDetails extends Component {
 				<div className="intro">
 					<p>
 					Welcome to my resume builder's site. Feel free 
-					to submitting your neccessary details and your have		
+					to submitting your neccessary details and have your		
 					professional resume deliver to you...Dev Olaitan Abdulazeez
 					</p>
 				</div>

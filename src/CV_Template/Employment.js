@@ -142,7 +142,8 @@ class Employment extends Component {
 						<input
 							className="form-control"
 							type="text"
-							name="emp" 
+							name="emp"
+							placeholder="e.g HorlerTech Solution Ibadan, Oyo state." 
 							onChange={handleChange('emp')}
 							value={values.emp}
 						/>
@@ -153,7 +154,8 @@ class Employment extends Component {
 						<input
 							className="form-control"
 							type="text"
-							name="pos" 
+							name="pos"
+							placeholder="e.g Technical Supervisor" 
 							onChange={handleChange('pos')}
 							value={values.pos}
 						/>
@@ -192,7 +194,8 @@ class Employment extends Component {
 						<input
 							className="form-control"
 							type="text"
-							name="empTwo" 
+							name="empTwo"
+							placeholder="e.g HorlerTech Solution Ikeja, Lagos state." 
 							onChange={handleChange('empTwo')}
 							value={values.empTwo}
 						/>
@@ -203,7 +206,8 @@ class Employment extends Component {
 						<input
 							className="form-control"
 							type="text"
-							name="posTwo" 
+							name="posTwo"
+							placeholder="e.g Facilitator Officer" 
 							onChange={handleChange('posTwo')}
 							value={values.posTwo}
 						/>
@@ -243,7 +247,8 @@ class Employment extends Component {
 							<input
 								className="form-control"
 								type="text"
-								name="empThree" 
+								name="empThree"
+								placeholder="e.g HorlerTech Solution Portharcourt, Rivers State." 
 								onChange={handleChange('empThree')}
 								value={values.empThree}
 							/>
@@ -254,7 +259,8 @@ class Employment extends Component {
 							<input
 								className="form-control"
 								type="text"
-								name="posThree" 
+								name="posThree"
+								placeholder="Software Engineer" 
 								onChange={handleChange('posThree')}
 								value={values.posThree}
 							/>
