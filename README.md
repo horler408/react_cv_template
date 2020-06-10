@@ -1,0 +1,1 @@
+This is a react components project that uses react step forms to accept the user's details and generate a quick professional resume based on the data collected through the forms. It also uses react state to validate the form inputs. It's a really nice project for beginner in React
