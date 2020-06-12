@@ -108,7 +108,7 @@ class FormUserDetails extends Component {
 					<p>
 					Welcome to my resume builder's site. Feel free 
 					to submitting your neccessary details and have your		
-					professional resume deliver to you...Dev Olaitan Abdulazeez
+					professional resume delivered to your finger tips ...Dev Olaitan Abdulazeez
 					</p>
 				</div>
 				<br/>
